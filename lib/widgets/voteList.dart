@@ -45,8 +45,8 @@ class VoteList extends StatelessWidget {
                   selectedTileColor: Colors.transparent,
                   onTap: () {
                     voteState.activeVote = vote;
-                    print("object");
-                    showSnackBar(context, "Double Tap to Select ❣ ");
+                    onLongPress: () => Navigator.pushReplacementNamed(
+                        context, '/candidates');
                   },
                   selected: activeVoteCategoryId == vote.voteCategoryId
                       ? true
