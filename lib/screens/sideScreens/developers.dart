@@ -290,7 +290,7 @@ class Developer extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: const [
-                            Text('Maalug Johnathan'),
+                            Text('Maalug Jonathan'),
                             Padding(
                               padding: EdgeInsets.symmetric(vertical: 8),
                               child: Text('Index Number: 4216120'),
