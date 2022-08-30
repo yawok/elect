@@ -213,7 +213,7 @@ class Developer extends StatelessWidget {
                             Text('Boateng Mireku Gerrard'),
                             Padding(
                               padding: EdgeInsets.symmetric(vertical: 8),
-                              child: Text('Index Number: 42003820'),
+                              child: Text('Index Number: 4203820'),
                             ),
                             Text('Github: @'),
                           ],
