@@ -1,15 +1,9 @@
-/// constants { colours, ...}
-///
-/// @ George this is how you're going to add colors to the project, so you can edit it from here
-///
-/// In case your colors are in Hex, I'm gonna import Hexcolor package for you to use here
 
 import 'dart:ui';
 import 'package:hexcolor/hexcolor.dart';
 
 class AppColors{
 
-  /// if you're using HexColor
   static  Color mainColor =  HexColor('#732424');
   static const Color textColor = Color(0xFFccc7c5);
   static const Color iconColor1 = Color(0xFFffd28d);
